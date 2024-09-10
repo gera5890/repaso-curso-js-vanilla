@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /*
+        Ingresar por teclado el precio de un producto y la cantidad
+        de productos a llevar
+        Calcular el importe a pagar
+        */
+
+        let precio = parseFloat(prompt('Ingrese el precio del producto: '))
+        let numProducts = parseInt(prompt('Ingrese la cantidad de productos: '));
+        let importe = precio * numProducts
+
+        document.write('El total es: ' + importe);
+    </script>
+</body>
+</html>

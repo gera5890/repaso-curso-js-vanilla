@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--
+    Ingresar el nombre y sueldo de un trabajador
+    Incrementar en 25% el sueldo y mostrar el nuevo saldo a cobrar 
+     -->
+
+     <script>
+        let nombre = prompt("ingrese el nombre");
+        let sueldo = parseInt(prompt("Ingrese el sueldo"));
+        let aumento = sueldo * 25/100;
+        let nuevoSueldo = sueldo + aumento;
+
+        document.write(nombre)
+        document.write('<br>')
+        document.write(sueldo)
+        document.write('<br>')
+        document.write(nuevoSueldo)
+     </script>
+</body>
+</html>
